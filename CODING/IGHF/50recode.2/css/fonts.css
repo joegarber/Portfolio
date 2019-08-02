@@ -1,0 +1,254 @@
+/* INTEL CLEAR fonts
+FILE_CHANGED_ON = '2017-10-02 08:00:00'
+font-families:
+	latin clear          = font-family: "intel-clear", Tahoma, Arial, Sans-serif;
+	latin clear-headline = font-family: "intel-clear-headline", "intel-clear", Tahoma, Arial, Sans-serif;
+	arabic               = font-family: "intel-clear-arabic","intel-clear",Tahoma,Arial,Sans-Serif;
+	chinese	traditional  = font-family: "intel-clear", "intel-clear-cyrillic", "SimHei","SimSun",Arial,sans-serif;
+	chinese simplified   = font-family: "Microsoft JhengHei", Arial, Verdana;
+	cyrillic             = font-family: "intel-clear-cyrillic", "intel-clear", Tahoma, Arial, Sans-serif;
+	hebrew               = font-family: "intel-clear-hebrew","intel-clear",Arial,Sans-Serif;
+	thai                 = font-family: "intel-clear-thai", "intel-clear", Tahoma, Arial, Sans-serif;
+	viet                 = font-family: "intel-clear-viet", "intel-clear", Arial, Sans-serif;
+*/
+/* Latin */
+@font-face {
+    font-family: "intel-clear";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin.eot");
+    src: url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin.eot?#iefix") format("embedded-opentype"), 	
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin.woff2") format("woff2"),
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin.woff") format("woff"),
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold.eot");
+    src: url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-italic.eot");
+    src: url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-italic.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-italic.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-italic.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "intel-clear";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold-italic.eot");
+    src: url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold-italic.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold-italic.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold-italic.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-bold-italic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "intel-clear";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite.eot");
+    src: rl("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite-italic.eot");
+    src: url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite-italic.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite-italic.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite-italic.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-latin-lite-italic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+/* Latin - Intel Clear Pro (Headline) Font*/
+@font-face {
+	font-family:"intel-clear-headline";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-headline.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-headline.eot?#iefix") format("embedded-opentype"),url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-headline.woff2") format("woff2"),url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-headline.woff") format("woff"),url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-headline.ttf") format("truetype");
+	font-weight:400;
+	font-style:normal
+}
+
+
+/* arabic fonts */
+@font-face {
+	font-family: "intel-clear-arabic";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-arabic";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-bold.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-arabic";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-light.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-light.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-light.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-light.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-arabic-light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* cyrillic fonts */
+@font-face {
+    font-family: "intel-clear-cyrillic";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-cyrillic";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-bold.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-cyrillic";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-light.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-light.eot?#iefix") format("embedded-opentype"),  
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-light.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-light.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-cyrillic-light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/* hebrew */
+@font-face {
+	font-family: "intel-clear-hebrew";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-hebrew";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-bold.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-hebrew";
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fontsintel-clear-hebrew-lite.eot");
+	src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-lite.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-lite.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-lite.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-hebrew-lite.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* thai fonts */
+@font-face {
+    font-family: "intel-clear-thai";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-thai";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-bold.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-thai";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-light.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-light.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-light.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-light.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-thai-light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/* vietamese fonts */
+@font-face {
+    font-family: "intel-clear-viet";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-viet";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-bold.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-bold.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-bold.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-bold.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "intel-clear-viet";
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-light.eot");
+    src:url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-light.eot?#iefix") format("embedded-opentype"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-light.woff2") format("woff2"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-light.woff") format("woff"), 
+		url("https://www.intel.com/etc/designs/intel/us/en/Fonts/intel-clear-viet-light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/*
+#recode50header,#recode50header a,#recode50header h1,#recode50header  h2,#recode50header  h3,#recode50header  h4,#recode50header  h5,#recode50header  h6,#recode50header  input,#recode50header  li,#recode50header  p,#recode50header  select,#recode50header  td,#recode50header  textarea,#recode50header  ul{
+	font-family:"intel-clear", "arial", "helvetica", sans-serif !important;
+}
+*/

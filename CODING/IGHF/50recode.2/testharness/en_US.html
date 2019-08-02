@@ -1,0 +1,617 @@
+<!--[if IE ]><![endif]-->
+<!doctype html>
+<!--[if IE 7]>
+<html class="rwd no-js vis lt-ie10 lt-ie9 lt-ie8 no-rtl"><![endif]-->
+<!--[if IE 8]>
+<html class="rwd no-js vis lt-ie10 lt-ie9 no-rtl"><![endif]-->
+<!--[if IE 9]>
+<html class="rwd no-js vis lt-ie10 no-rtl"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="rwd no-js vis no-rtl"><!--<![endif]-->
+
+<head>	
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<!--[if lte IE 9]>
+		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<meta name="robots" content="noindex,nofollow">
+	
+    <title>uNav Clean - no Subnav</title>
+	
+	<!--#include virtual="../prefetch.inc"-->
+	<!--IGHF (Performance tweaks for Mobile and Slow connections)-->  
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="https://www.intel.com" pr="1.0">
+	<link rel="dns-prefetch" href="https://www.google-analytics.com" pr="1.0">
+	<link rel="preconnect" href="https://www.intel.com" crossorigin="anonymous" pr="1.0">
+	<link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" pr="1.0"> 
+	<link href='style.css' rel='stylesheet'>
+
+	<!--/IGHF-->
+
+	
+	<!--#include virtual="../loader.inc"-->
+	<!--IGHF Loader-->
+	<!--[if le IE 9]>
+	<script type="text/javascript" src="../js/headerchooser-master.js" ASYNC DEFER></script>
+	<![endif]-->
+	<!--[if gt IE 9]><!-->
+	<script type="text/javascript" src="../js/headerchooser-master.js" ASYNC></script>
+	<!--<![endif]-->
+	<script>INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 03/12/2017 08:00:00",textDirection:"--",culture:"--",OutputId:"--"};</script>
+	<!--/IGHF Loader-->
+
+	<!-- "PUT IGHF DASHBOARD SCRIPT HERE" -->
+	<style>body{background-color: #fff;}</style>
+	
+	<!--#include virtual="dashboard.inc"-->
+	<script type="text/javascript">
+	INTELNAV = window.INTELNAV || {};
+	INTELNAV.dashboard = {
+		languageSelector: {
+			settings: {
+				behavior: "mineOnly",
+				method: "path",
+				regex: / /
+			},
+			geos: [
+				{ geo: "en_us", path: "onclick='do this'" },
+				{ geo: "zh_cn", path: "/zh-cn/" },
+				{ geo: "id_id", path: "/id/" },
+				{ geo: "ja_jp", path: "/jp/" },
+				{ geo: "ko_kr", path: "/ko/" },
+				{ geo: "zh_tw", path: "/zh-tw/" },
+				{ geo: "es_co", path: "/foo1/" },
+				{ geo: "es_mx", path: "/foo2/" },
+				{ geo: "es_cl", path: "/foo3/" },
+				{ geo: "es_xl", path: "/foo4/" },
+				{ geo: "fr_ca", path: "/fr/" }
+			]
+		}
+	};
+	</script>
+	
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW, NOSNIPPET, NOIMAGEINDEX"><!-- not needed -->
+</head>
+
+
+<body onload="processPage();" class="recode50">
+
+<!--#include virtual="../en_US/gh_default.inc"-->
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 03/12/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="../css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+
+<!--#include virtual="main.inc"-->
+First to render
+<div ID="speedTest"> 
+	<!--a ID="SpeedTestOn" href="?speedtest=true" class="speedtest">Enable SPEED TEST</a>
+	<a ID="SpeedTestOff" href="?speedtest=false">Disable SPEED TEST</a-->
+</div>
+
+<div ID="MAIN"  class="recode50" style="height:auto; overflow:hidden;padding-top:10px;">
+	<div id="xmlresults"></div>
+
+
+	<div id="form">
+		<form ID="OverRide" name="OverRide" style="float:left;margin:10px;">
+			forcetest=<input ID="forcetest" type=text name="forcetest" value="">
+			isMin=<select ID="isMin" name="isMin">
+				<option id="isMin_true" value="true">true</option>
+				<option id="isMin_false" value="false" selected>false</option>
+			</select>
+			mod=<select ID="mod" name="mod">
+				<option id="mod_true" value="true">true</option>
+				<option id="mod_false" value="false" selected>false</option>
+			</select><br>
+			hc=<input ID="hc" type=text name="hc" value="" style="width:100px">
+			hcpath=<input ID="hcpath" type=text name="hcpath" value="" style="width:400px"><br>
+			<input type="submit" name="action">
+		</form>
+
+		<span style="float:left;margin:10px;">
+			GEO: <span ID="cq_geo"></span><br />
+			Header: <span ID="cq_header"></span><br />
+			Footer: <span ID="cq_footer"></span>
+		</span>
+
+	</div>
+
+	<div style="clear:both"></div>
+
+	
+
+	<div  id="GEOS" style="float:left; width:310px; margin:10px; ">
+		<table border=0 cellspacing=0>
+		<tr>
+			<td>
+			<div id="replaceGEO" style="display:none; color:#cc0000; font-width:bold; font-size:2em; width:100%; float:none;">
+
+					<span id="origGEO">origGEO</span> replaced by <span id="newGEO">newGEO</span>
+
+			</div>
+		
+		
+		
+		<div>
+<h3>ASIA</h3>
+<a onclick="formatpath('en_AU')" class="en_AU">en_AU</a>
+<a onclick="formatpath('en_IN')" class="en_IN">en_IN</a>
+<a onclick="formatpath('en_XA')" class="en_XA">en_XA</a>
+<a onclick="formatpath('id_ID')" class="id_ID">id_ID</a>
+<a onclick="formatpath('ja_JP')" class="ja_JP">ja_JP</a>
+<a onclick="formatpath('ko_KR')" class="ko_KR">ko_KR</a>
+<a onclick="formatpath('th_TH')" class="th_TH">th_TH</a>
+<a onclick="formatpath('vi_VN')" class="vi_VN">vi_VN</a>
+<a onclick="formatpath('zh_CN')" class="zh_CN">zh_CN</a>
+<a onclick="formatpath('zh_TW')" class="zh_TW">zh_TW</a>
+</div>
+
+<div>
+<h3>EUROPE</h3>
+<a onclick="formatpath('de_DE')" class="de_DE">de_DE</a>
+<a onclick="formatpath('en_IE')" class="en_IE">en_IE</a>
+<a onclick="formatpath('en_UK')" class="en_UK">en_UK</a>
+<a onclick="formatpath('es_ES')" class="es_ES">es_ES</a>
+<a onclick="formatpath('fr_FR')" class="fr_FR">fr_FR</a>
+<a onclick="formatpath('it_IT')" class="it_IT">it_IT</a>
+<a onclick="formatpath('pl_PL')" class="pl_PL">pl_PL</a>
+<a onclick="formatpath('ru_RU')" class="ru_RU">ru_RU</a>
+<a onclick="formatpath('tr_TR')" class="tr_TR">tr_TR</a>
+</div>
+
+<div>
+<h3>LATIN AMERICA</h3>
+<a onclick="formatpath('es_XL')" class="es_XL">es_XL</a>
+<a onclick="formatpath('pt_BR')" class="pt_BR">pt_BR</a>
+</div>
+
+<div>
+<h3>MIDDLE EAST</h3>
+<a onclick="formatpath('ar_XR')" class="ar_XR">ar_XR</a>
+<a onclick="formatpath('en_XR')" class="en_XR">en_XR</a>
+<a onclick="formatpath('he_IL')" class="he_IL">he_IL</a>
+</div>
+
+<div>	
+<h3>NORTH AMERICA</h3>	
+<a onclick="formatpath('en_CA')" class="en_CA">en_CA</a>
+<a onclick="formatpath('en_US')" class="en_US">en_US</a>
+<a onclick="formatpath('fr_CA')" class="fr_CA">fr_CA</a>
+</div>	
+		
+		
+		
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div><a href="blank.html">Blank</a></div>
+				<div><a href="hacked.html">False GEO</a></div>
+			</td>
+		</tr>
+		</table>
+		
+		<h3>KEY</h3>
+		<ul>
+			<li style="color:#aaa;"><span class="norecode">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Not Supported in Framework - yet</li>
+			<li><span class="hasrecode">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Supported in Framework</li>
+			<li style="color:#aaa;">Not Supported in Menu</li>
+			<li class="active">Supported in Menu</li>
+			<li class="swapped">Swapped in Menu</li>
+			<li></li>
+			<li><span class="norecode">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="norecode active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="norecode swapped">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Need to add this GEO to the Framework</li>
+		</ul>
+		<ul id="replaceGEOs" style="color:#cc0000;">
+		</ul>
+	</div>
+
+	<div style="float:none; width:auto; overflow:hidden;" id="DesignModes" class="recode50">
+	</div>
+	
+	
+</div>
+
+
+<div id="SUB">
+	<ul>
+		<li><a href="#first">First Anchor</a>
+		<li><a href="#second">Second Anchor</a>
+		<li><a href="#third">Third Anchor</a>
+	</ul>
+
+	<a name="first" class="anchor">&nbsp;</a>
+	<div style="height:600px;">First text here</div>
+	<a name="second" class="anchor">&nbsp;</a>
+	<div style="height:600px;">Second text here</div>
+	<a name="third" class="anchor">&nbsp;</a>
+	<div style="height:600px;">Third text here</div>
+
+</div>
+
+<!--#include virtual="../en_US/gf_default.inc"-->
+<!--IGHF Footer--> 
+<!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50footer"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {}; INTELNAV.renderSettingsFooter={version:"2.0 - 03/12/2017 08:00:00",OutputId:"gf_default"};
+/*]]>*/</script> 
+<noscript><div id="smallfootprint-footer"><ul><li>©Intel Corporation</li><li><a href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html" target="">Terms of Use</a></li><li><a href="https://www.intel.com/content/www/us/en/legal/trademarks.html" target="">*Trademarks</a></li><li><a href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html" target="">Privacy</a></li><li><a href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html" target="">Cookies</a></li><li><a href="https://www.intel.com/content/www/us/en/policy/policy-human-trafficking-and-slavery.html" target="">Supply Chain Transparency </a></li><li><a href="https://www.intel.com/content/www/us/en/siteindex.html" target="">Site Map</a></li></ul></div></noscript>
+<!--/IGHF Footer-->
+
+<!--#include virtual="bottom.inc"-->
+<script type="text/javascript">
+
+
+var mod = false;
+
+var TCenvironment = "Sandbox",
+	TCrecode = "50recode2";
+
+// get queryString value by name - OLD VERSION
+getParamByName = function(name) {
+	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	var regexS = "[\\?&]" + name + "=([^&#]*)";
+	var regex = new RegExp(regexS);
+	var results = regex.exec(window.location.href);
+	if (results === null) {return "";}
+	else {return decodeURIComponent(results[1].replace(/\+/g, " "));}
+};
+
+function UpdateQueryString(key, value, url) {
+    if (!url) url = window.location.href;
+    var re = new RegExp("([?&])" + key + "=.*?(&|#|$)(.*)", "gi"),
+        hash;
+
+    if (re.test(url)) {
+        if (typeof value !== 'undefined' && value !== null)
+            return url.replace(re, '$1' + key + "=" + value + '$2$3');
+        else {
+            hash = url.split('#');
+            url = hash[0].replace(re, '$1$3').replace(/(&|\?)$/, '');
+            if (typeof hash[1] !== 'undefined' && hash[1] !== null) 
+                url += '#' + hash[1];
+            return url;
+        }
+    }
+    else {
+        if (typeof value !== 'undefined' && value !== null) {
+            var separator = url.indexOf('?') !== -1 ? '&' : '?';
+            hash = url.split('#');
+            url = hash[0] + separator + key + '=' + value;
+            if (typeof hash[1] !== 'undefined' && hash[1] !== null) 
+                url += '#' + hash[1];
+            return url;
+        }
+        else
+            return url;
+    }
+}
+
+function buildSpeedTest(speedTest){
+	
+	var div = document.querySelector('#speedTest');
+	
+	if (speedTest !== "true") {
+		div.innerHTML += "<a ID='SpeedTestOn' href='" + UpdateQueryString("speedtest","true") + "'>Enable SPEED TEST</a>";
+	} else {
+		div.innerHTML += "<a ID='SpeedTestOff' href='" + UpdateQueryString("speedtest","false") + "'>Disable SPEED TEST</a>";
+	}
+}
+
+
+
+var processPage = function() { 
+window.waitFor.add(function() { return typeof INTELNAV.recode50 !== 'undefined'}, function() {
+window.waitFor.add(function() { return typeof INTELNAV.jQuery_1_11_1 !== 'undefined'}, function() {
+	if (getParamByName("mod") != '') {
+		mod = true;
+	}
+	if (getParamByName("speedtest") !== "true") {
+		console.log("speedtest=false");
+		
+		document.querySelector("#MAIN").style.display = "block";
+		document.querySelector("#SUB").style.display = "block";		
+		
+		if (getParamByName("ftrOutputId") != '') { INTELNAV.renderSettingsFooter.OutputId = getParamByName("ftrOutputId"); }
+
+		document.getElementById("cq_geo").innerText  = INTELNAV.renderSettings.culture;
+		document.getElementById("cq_header").innerText  = INTELNAV.renderSettings.OutputId == undefined ? 'en_US' : INTELNAV.renderSettings.OutputId;
+		if (typeof INTELNAV.renderSettingsFooter != 'undefined') {
+			document.getElementById("cq_footer").innerText  = (INTELNAV.renderSettingsFooter.OutputId == undefined ? 'None' : INTELNAV.renderSettingsFooter.OutputId) ;
+		}
+
+		if (typeof HeaderType == 'undefined') {HeaderType="default";}
+		
+		document.getElementById("hcpath").value = getParamByName("hcpath");
+		document.getElementById("hc").value = getParamByName("hc");
+		document.getElementById("forcetest").value = getParamByName("forcetest");
+		
+		buildSpeedTest(getParamByName("speedtest"));
+		showDesignModes();
+		showActiveGeos();
+		showFrameworkGeos();
+		//showXML();
+		
+	} else {
+		console.log("speedtest=true");
+		buildSpeedTest(getParamByName("speedtest"));		
+	}
+	
+	if (mod == false) {
+		
+		var d = document.getElementById("form");
+		d.className += "hidden";
+		
+		var d = document.getElementById("SUB");
+		d.className += "hidden";
+	} else {
+		
+	}
+});
+});
+}
+
+
+function formatpath(culture) {
+	newPath = (culture + ".html"+location.search);
+	window.location = newPath;
+}
+
+
+String.prototype.capitalizeFirstLetter = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
+function showDesignModes() {
+	var isHidden="", isModHidden="";
+
+	// *****************************************************
+	// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+	// Necessary for IE support of the KEYS object
+	if (!Object.keys) {Object.keys = (function() {'use strict';var hasOwnProperty = Object.prototype.hasOwnProperty,hasDontEnumBug = !({ toString: null }).propertyIsEnumerable('toString'),dontEnums = ['toString','toLocaleString','valueOf','hasOwnProperty','isPrototypeOf','propertyIsEnumerable','constructor'],dontEnumsLength = dontEnums.length;return function(obj) {if (typeof obj !== 'object' && (typeof obj !== 'function' || obj === null)) {throw new TypeError('Object.keys called on non-object');}var result = [], prop, i;for (prop in obj) {if (hasOwnProperty.call(obj, prop)) {result.push(prop);}}if (hasDontEnumBug) {for (i = 0; i < dontEnumsLength; i++) {if (hasOwnProperty.call(obj, dontEnums[i])) {result.push(dontEnums[i]);}}}return result;};}());}
+	// *****************************************************
+	
+	
+	// selects the div with an id of placeholder
+	var div = document.getElementById('DesignModes');
+	
+	var menuObj = INTELNAV.recode50;
+	
+	for (var i=0, menukeys=Object.keys(menuObj); i<menukeys.length; i++) {
+
+		
+		var designObj = INTELNAV.recode50[menukeys[i]];
+		for (var j=0, designkeys=Object.keys(designObj); j<designkeys.length; j++) {
+			if (!isNaN(designkeys[j]) ) {
+				
+				var isCurrent="";
+				
+				var ul = document.createElement('ul'); // create an arbitrary ul element
+
+				if (mod == false) {
+					
+					if (menukeys[i] != INTELNAV.forceTestObj[0]) {
+						isHidden = "hidden";
+						isModHidden = "";
+					} else {
+						isHidden = "";
+						isModHidden = "hidden";
+					}
+				} else {
+					isHidden = "";
+					isModHidden = "";
+				}
+				
+				
+				
+				ul.setAttribute('class','design '+menukeys[i]+designkeys[j]+' '+isHidden);
+				
+				if (menukeys[i] == INTELNAV.forceTestObj[0] && INTELNAV.forceTestObj[2]=="dev") {isCurrent = "current";} else {isCurrent = "";}
+				var tmpParm = menukeys[i]+"-"+designkeys[j]+"-dev";
+				ul.innerHTML += "<li class='"+isModHidden+" "+isCurrent+"'><a href='" + UpdateQueryString("forcetest",tmpParm) + "'>" + tmpParm + " on LOCALHOST</a></li>";
+				
+				if (menukeys[i] == INTELNAV.forceTestObj[0] && INTELNAV.forceTestObj[2]=="staging") {isCurrent = "current";} else {isCurrent = "";}
+				var tmpParm = menukeys[i]+"-"+designkeys[j]+"-staging";
+				ul.innerHTML += "<li class='"+isModHidden+" "+isCurrent+"'><a href='" + UpdateQueryString("forcetest",tmpParm) + "'>" + tmpParm + " on IGHF-STAGING</a></li>";
+				
+				if (menukeys[i] == INTELNAV.forceTestObj[0] && INTELNAV.forceTestObj[2]=="preprod") {isCurrent = "current";} else {isCurrent = "";}
+				var tmpParm = menukeys[i]+"-"+designkeys[j]+"-preprod";
+				ul.innerHTML += "<li class='"+isModHidden+" "+isCurrent+"'><a href='" + UpdateQueryString("forcetest",tmpParm) + "'>" + tmpParm + " on IGHF-PRODUCTION</a></li>";
+				
+				if (menukeys[i] == INTELNAV.forceTestObj[0] && INTELNAV.forceTestObj[2]=="test") {isCurrent = "current";} else {isCurrent = "";}
+				var tmpParm = menukeys[i]+"-"+designkeys[j]+"-test";
+				ul.innerHTML += "<li class='"+isModHidden+" "+isCurrent+"'><a href='" + UpdateQueryString("forcetest",tmpParm) + "'>" + tmpParm + " on TEST-WWW</a></li>";
+				
+				if (menukeys[i] == INTELNAV.forceTestObj[0] && INTELNAV.forceTestObj[2]=="prod") {isCurrent = "current";} else {isCurrent = "";}
+				var tmpParm = menukeys[i]+"-"+designkeys[j]+"-prod";
+				ul.innerHTML += "<li class='"+isCurrent+"'><a href='" + UpdateQueryString("forcetest",tmpParm) + "'>" + tmpParm + " on PRODUCTION</a></li>";
+				
+				ul.innerHTML += "<li></li>";
+
+				
+				ul.innerHTML += "<li><div ID='"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"'><a href='http://ubit-teamcity-iag.intel.com/viewType.html?buildTypeId=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"&guest=1' target='_blank' style='float:left;'><img src='http://ubit-teamcity-iag.intel.com/app/rest/builds/buildType:(id:IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+")/statusIcon'/></a><span class='status'></span></div><div style='clear:both;'>Build: <span class='"+isModHidden+"'>[<a href='https://ubit-teamcity-iag.intel.com/httpAuth/action.html?add2Queue=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"&buildTagsInfo=Start'>Start</a>]</span><span>[<a href='https://ubit-teamcity-iag.intel.com/httpAuth/action.html?add2Queue=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"&name=env.action&value=pausePush&buildTagsInfo=PausePush'>Pause</a>]</span><span class='"+isModHidden+"'>[<a href='https://ubit-teamcity-iag.intel.com/httpAuth/action.html?add2Queue=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"&name=env.action&value=resetTests&buildTagsInfo=Reset'>Reset</a>]</span><span>[<a href='https://ubit-teamcity-iag.intel.com/httpAuth/action.html?add2Queue=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designkeys[j]+"_"+menukeys[i].capitalizeFirstLetter()+designkeys[j]+"&name=env.action&value=push2preview&buildTagsInfo=Push&buildComment=Manually Pushed due to a Manual Pause or False Fail'>Push</a>]</span></div>";
+				
+				
+				
+				div.appendChild(ul); // finally the ul element to the div with an id of placeholder
+				
+				//Get status for inital page load
+				getTCstatus(menukeys[i].capitalizeFirstLetter(),designkeys[j]);
+				
+				
+				
+				console.log('i='+i);
+				console.log('menukeys[i]='+menukeys[i].capitalizeFirstLetter());
+				console.log('j='+j);
+				console.log('designkeys[j]='+designkeys[j]);
+				
+				
+			}
+		}
+		
+		
+	}	
+	
+}
+
+
+function setDeceleratingTimeout(callback, factor, times, buildID) {
+    var internalCallback = function(tick, counter) {
+        return function() {
+            if (--tick >= 0) {
+                window.setTimeout(internalCallback, ++counter * factor);
+				console.log("counter="+counter);
+				if (counter >= 10) {
+					counter=0;					
+					//return;
+				}
+				callback(buildID);
+            }
+        }
+    }(times, 0);
+
+    window.setTimeout(internalCallback, factor);
+};
+
+
+function delayLink (URL) {
+    setTimeout( function() { window.location = URL }, 5000 );
+}
+
+
+function getTCstatus(menuKey, designKey){
+	BuildID = menuKey+designKey;
+	var tmpString = "<a href='http://ubit-teamcity-iag.intel.com/viewType.html?buildTypeId=IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designKey+"_"+BuildID+"&guest=1' target='_blank' style='float:left;'><img src='http://ubit-teamcity-iag.intel.com/app/rest/builds/buildType:(id:IntelComService_"+TCenvironment+"_Ighf_"+TCrecode+"_Design"+designKey+"_"+BuildID+")/statusIcon'/></a>";
+	var tmpString2 = "";
+	
+	
+	document.getElementById(BuildID).innerHTML = tmpString;
+	
+	INTELNAV.jQuery_1_11_1(".progress-bar").each(function(){
+    each_bar_width = INTELNAV.jQuery_1_11_1(this).attr('aria-valuenow');
+    INTELNAV.jQuery_1_11_1(this).width(each_bar_width + '%');
+  });
+
+}
+
+
+function showActiveGeos() {
+	var getAltGeo = function(thisGeo, listOfGeos) {
+		var curGEO = thisGeo;
+		var altGEO = "";
+		var newGEO = "";
+		
+		for (j = 0; j < listOfGeos.length; j++) {
+			
+			thisSplitGEO = listOfGeos[j].split(":");
+			thisGEO = thisSplitGEO[0];
+			newGEO = thisSplitGEO[1];
+			
+			//INTELNAV.jQuery_1_11_1('#GEOS a.'+thisGEO).addClass('activated'); 				
+			var testarray = document.getElementsByClassName(thisGEO);
+			for(var i = 0; i < testarray.length; i++){testarray[i].className += " activated";}
+
+			
+			if (newGEO != undefined && newGEO != '') {
+				INTELNAV.jQuery_1_11_1('#replaceGEOs').append('<li>'+thisGEO+' replaced by '+newGEO+'</li>');
+				var testarray = document.getElementsByClassName(thisGEO);
+				for(var i = 0; i < testarray.length; i++){testarray[i].className += " swapped";}
+			}
+			
+		}
+		return altGEO;
+	}
+	
+	var listOfGeos = INTELNAV.activeCultures.split("|");
+	retGEO = getAltGeo(INTELNAV.renderSettings.culture, listOfGeos);
+	
+}
+
+function showFrameworkGeos() {
+	var getAltGeo = function(thisGeo, listOfGeos) {
+		var curGEO = thisGeo;
+		var altGEO = "";
+		var newGEO = "";
+		
+		for (j = 0; j < listOfGeos.length; j++) {
+			thisSplitGEO = listOfGeos[j].split(":");
+			thisGEO = thisSplitGEO[0];
+			newGEO = thisSplitGEO[1];
+			
+			var testarray = document.getElementsByClassName(thisGEO);
+			for(var i = 0; i < testarray.length; i++){testarray[i].className += " hasrecode";}
+			
+		}
+		return altGEO;
+	}
+	
+	var listOfGeos = INTELNAV.Cultures.unav.ActiveCulturesFramework.split("|");
+	retGEO = getAltGeo(INTELNAV.renderSettings.culture, listOfGeos);
+	
+}
+
+
+function showXML() {
+	INTELNAV.jQuery_1_11_1.get('results/'+INTELNAV.forceTestObj[0]+'-'+INTELNAV.forceTestObj[1]+'/log-phantomjs.xml', function(d){
+ 
+        INTELNAV.jQuery_1_11_1(d).find('testsuite').each(function(){
+ 
+            var $testsuite = INTELNAV.jQuery_1_11_1(this); 
+            var tt_tests = $testsuite.attr("tests");
+            var tt_failures = $testsuite.attr('failures');
+            var tt_errors = $testsuite.attr('errors');
+			var tt_time = $testsuite.attr('time');
+			var tt_timestamp = $testsuite.attr('timestamp');
+ 
+			var tt_status = "";
+			
+			if (tt_failures > 0) {tt_status+=' error';}
+			if (tt_errors > 0) {tt_status+=' failure';}
+			if (tt_errors == 0 && tt_failures == 0) {tt_status+=' success';}
+ 
+            var html = "<div class='results "+tt_status+"'>";
+			html += '<span>Tests=' + tt_tests + '</span>';
+            html += '<span>Failures=' + tt_failures + '</span>';
+            html += '<span>Errors=' + tt_errors + '</span>';
+            html += '<span>Time=' + tt_time + '</span>';
+            html += '<span>Timestamp=' + tt_timestamp + '</span>';
+			
+			//if (tt_failures>0 || tt_errors>0) {
+				html += '<span><a href="results/unav-4/log-phantomjs.xml" target="_blank">View PhantomJS Log</a></span>';
+				html += '<span><a href="results/unav-4/done.log" target="_blank">View Batch Log</a></span>';
+				html += '<span><a href="results/unav-4/failures" target="_blank">View Failed Screen Shots</a></span>';
+				//html += '<span><a href="results/unav-4" target="_blank">View Test Results</a></span>';
+			//}
+			
+			html += '</div>';
+			INTELNAV.xml = html;
+            INTELNAV.jQuery_1_11_1('#xmlresults').append(INTELNAV.jQuery_1_11_1(html));
+			
+			console.log("XML test file found");
+		});
+	})
+	.success (function(){
+	})
+	.error (function(){
+		console.log("ERROR: XML test file no found");
+	})
+	.complete (function(){
+	});
+}
+
+
+</script>
+
+
+</body>
+</html>

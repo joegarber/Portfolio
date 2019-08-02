@@ -1,0 +1,15 @@
+﻿/* VI_VN override 
+FILE_CHANGED_ON = '2017-03-21 11:36:56'
+*/
+
+#recode50header,#recode50header a,#recode50header h1,#recode50header  h2,#recode50header  h3,#recode50header  h4,#recode50header  h5,#recode50header  h6,#recode50header  input,#recode50header  li,#recode50header  p,#recode50header  select,#recode50header  td,#recode50header  textarea,#recode50header  ul{
+	font-family: "intel-clear-viet", "intel-clear", Arial, Sans-serif !important;
+}
+
+#recode50header #tertiary-nav a,#recode50header #tertiary-nav h1,#recode50header #tertiary-nav h2,#recode50header #tertiary-nav h3,#recode50header #tertiary-nav h4,#recode50header #tertiary-nav h5,#recode50header #tertiary-nav h6,#recode50header #tertiary-nav input,#recode50header #tertiary-nav li,#recode50header #tertiary-nav p,#recode50header #tertiary-nav select,#recode50header #tertiary-nav td,#recode50header #tertiary-nav textarea,#recode50header #tertiary-nav ul{
+	font-family:Arial, Helvetica, Verdana, sans-serif !important;
+}
+
+#recode50footer,#recode50footer a,#recode50footer h1,#recode50footer h2,#recode50footer h3,#recode50footer h4,#recode50footer h5,#recode50footer h6,#recode50footer input,#recode50footer li,#recode50footer p,#recode50footer select,#recode50footer td,#recode50footer textarea,#recode50footer ul{
+	font-family: "intel-clear-viet", "intel-clear", Arial, Sans-serif !important;
+}

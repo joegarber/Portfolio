@@ -1,0 +1,11 @@
+﻿@import url("https://www.intel.com/ighf/50recode.2/css/fonts.css");
+#smallfootprint-header, #smallfootprint-footer{font-family: "intel-clear","tahoma","helvetica",sans-serif;}
+#smallfootprint-header a.gaat40-logo, #smallfootprint-header #user-bar-searchbox-form {float:right;}
+#smallfootprint-header form fieldset{border:none}
+#smallfootprint-header form label{visibility:hidden}
+#smallfootprint-footer ul li{display:inline;list-style:none;padding: 0 20px 0 0;font-size:.8em;}
+#smallfootprint-footer ul li a{color:#0070c5}
+#smallfootprint-header, #smallfootprint-footer {font-family: intel-clear,tahoma,Helvetica,helvetica,Arial,sans-serif;font-size: 16px;line-height: 1.42857143;color: #555;background-color: #fefefe; direction:rtl;}
+#smallfootprint-header {z-index: 1031;position: fixed;background: #0071c5;width: 100%;height: 60px;border: 0;outline: 0;-webkit-border-radius: 0;-moz-border-radius: 0;-ms-border-radius: 0;-o-border-radius: 0;border-radius: 0;-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.15);-moz-box-shadow: 0 3px 3px rgba(0,0,0,.15);-ms-box-shadow: 0 3px 3px rgba(0,0,0,.15);-o-box-shadow: 0 3px 3px rgba(0,0,0,.15);box-shadow: 0 3px 3px rgba(0,0,0,.15);-webkit-transition: all 250ms;-moz-transition: all 250ms;-ms-transition: all 250ms;-o-transition: all 250ms;transition: all 250ms;top: 0;right: 0;left: 0;display: block;margin-right: 0;margin-left: auto;padding-left: 15px;padding-right: 15px;}
+#smallfootprint-header .gaat40-logo {background: url(https://www.intel.com/etc/designs/intel/clientlibs/pages/commons-page/images/sprite-with-gray-icons.png) no-repeat;background-position: -331px -488px;margin: 9px auto;display: block;background-size: inherit;width: 64px;height: 42px;}
+#smallfootprint-footer{width: 100%;padding: 2em;margin-right: auto;margin-left: auto;padding-left: 0;padding-right: 0;background-color: #f3f3f3;color: #555;}

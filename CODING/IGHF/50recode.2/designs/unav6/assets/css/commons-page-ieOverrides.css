@@ -1,0 +1,204 @@
+.lt-ie9 .recode50 footer.no-simplify{clear:both;min-width:970px}.lt-ie9 .recode50 footer.no-simplify div.col-sm-3{width:242px;float:left}.lt-ie9 .recode50 footer.no-simplify div.col-sm-3 li{list-style-image:none;padding:0}.lt-ie9 .recode50 footer.no-simplify div.col-sm-3 li a{width:242px}.lt-ie9 .recode50 footer.no-simplify div.row{margin:0 auto;width:970px}.lt-ie9 .recode50 footer.no-simplify .container{width:970px;padding:0!important;min-width:970px}.lt-ie9 .recode50 footer.no-simplify div.clearfix{display:none}.lt-ie9 .recode50 .headerfooter-menu3 footer.global .clearfix{display:block}﻿
+/* SITE HARDENING 
+ * FILE_CHANGED_ON = '2018-10-11 16:47:40'
+ * VERSION = '1.1.17'
+*/
+.rwd .recode50 {}
+.rwd .recode50 {padding-top:0;}
+.rwd .recode50 .header-simplify {display:block!important;}
+.rwd .recode50 footer {display:block!important;}
+/* header */
+.rwd .header-simplify nav.global-menu-simplify .mobileFirst {visibility:visible!important;}
+.recode50 {background-color:transparent!important;}
+/*.rwd #recode50header.recode50 .header-simplify nav.global-menu-simplify .nav-right .login {display: none; visibility: hidden;}*/
+.recode50 .global-menu #search-results-mobile ul li a {text-align:left!important;}
+.recode50 .global-menu .navbar-nav li a {text-align:left!important;}
+.recode50 .global-menu .drawer a {text-align:left!important;}
+.recode50 .btn.back .arrow {float:none!important;}
+.recode50 .drawer h1, .recode50 .drawer h2, .recode50 .drawer p {padding:0px!important;}
+.recode50 .dropdown {text-overflow: initial!important; overflow: initial!important; border-style: initial!important; border-width: initial!important; cursor: initial!important; text-align: initial!important; text-decoration: initial!important; background: initial!important; border-color: initial!important; -webkit-user-select: initial!important; -k-user-select: initial!important; -moz-user-select: initial!important; user-select: initial!important;}
+.rwd.desktop .recode50 .navbar .newmenu-container .newmenu-contents div.level.primary div.primaryItemContainer.selected p.primary-item {color: #00AEEF!important;}
+.rwd.desktop .recode50 .navbar .newmenu-container .newmenu-contents div.level.primary div.primaryItemContainer p.primary-item{color:#fff!important;}
+.rwd.desktop .recode50 .navbar .newmenu-container .newmenu-contents div.level.middle .middle-content p.middle-item.selected {color: #00AEEF!important;}
+.rwd.desktop .recode50 .navbar .newmenu-container .newmenu-contents div.level.middle .middle-content p.middle-item {color:#0071C5!important;}
+.recode50 .predictive-search-dropdown a {text-align:left!important;}
+.rwd .recode50 .header-simplify .modal-global-menu .modal-content {display:block!important;}
+.rwd .recode50 button.close{position:static;}
+/* footer */
+#recode50footer.recode50 {padding-top: 0px;}
+.recode50 .global {color:#555!important;}
+.recode50 .global {left:0!important; right:0!important; position:absolute!important;}
+.recode50 .global .row li a {text-align:left!important;}
+.recode50 .global .row h4 {padding:0px!important;}
+
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify {z-index:1041;}*/
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .search-button:hover span {background-position:-430px 0;}*/
+
+/* temp fix until pro-commons returns to commons */
+.recode50 .global-menu .navbar-menu-button a .pattern {background:none !important; background-color: #00aeef !important;}
+
+/* temp - hide find content link in header */
+.recode50 .navbar-links .navbar-right {display:none;}
+
+
+/* Simplify */
+/*.rwd .recode50 .header-simplify {top:0!important; left:0!important; right:0!important; position:absolute!important;}*/
+.rwd .recode50 .header-simplify [data-igm-site-mask].active {margin-top:-10px; margin-left:-10px;}
+
+/*.rwd .ie .recode50 .header-simplify nav.global-menu-simplify .icon.hamburger {display:none!important;}*/
+
+/*.rwd .recode50 .header-simplify [data-igm-site-mask].active {margin-top:0; margin-left:0;}*/
+
+/* TEMP Emergency TEMP fix for Intel Logo on Hi-Res devices */
+.rwd .recode50 .header-simplify nav.global-menu-simplify .navbar-logo {
+    background: url('https://www.intel.com/etc/designs/intel/clientlibs/pages/commons-page/images/intel-logo-highres.png');
+	background-size: 100%;
+}
+.rwd .ie .recode50 .header-simplify nav.global-menu-simplify .navbar-logo {
+    background: url('https://www.intel.com/etc/designs/intel/clientlibs/pages/commons-page/images/hdr-spr.png') no-repeat -77px -512px;
+}
+@media screen and (max-width:767px) {
+.rwd .ie .recode50 .header-simplify nav.global-menu-simplify .navbar-logo {background:url('https://www.intel.com/etc/designs/intel/clientlibs/pages/commons-page/images/hdr-spr.png') no-repeat -77px -427px;}
+}
+
+.rwd .recode50 .header-simplify [data-igm-site-mask] {z-index:5!important;}
+
+.rwd .recode50 {text-align:initial;}
+.rwd #recode50footer footer.global ul {display:block;}
+.rwd .recode50 .clearfix {clear:none;}
+.rwd .recode50 input, .rwd .recode50 button, .rwd .recode50 select, .rwd .recode50 textarea {font-weight:inherit; text-shadow:inherit;}
+
+/*.rwd.lt-ie9 .recode50 .hamburger{display:none !important}*/
+
+.recode50 button {text-decoration:initial;}
+.recode50 .modal-title {border:0px;}
+
+/* necessary for the oldbrowser message to work correctly across different browsers */
+.recode50 #alertMsg {z-index:99; position:relative!important;padding-left:0;padding-right:0;right:0;left:0;}
+.rwd .recode50 .browser_detect {position: initial;}
+.rwd.lt-ie9 .recode50 .browser_detect.show {display:block !important;}
+
+.rwd .recode50 .header-simplify nav.global-menu-simplify [data-igm-search-control] label {width:auto; padding:initial;}
+
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right button {padding-top:15px!important;}*/
+
+@media print {
+	.recode50 {display:none!important;}
+}
+
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .logout-control:hover .login-label{color:#9addf7;}
+@media screen and (max-width: 1199px) and (min-width: 767px) {
+	.rwd .recode50 .header-simplify .content .states-login .state-option.state-logged-in {padding: 20px 0 20px 0;}
+}
+
+
+/* hide the search signin feature*/
+/*.rwd .recode50 #simplify-search .search-info {display:none!important;}
+.rwd .recode50 #simplify-search .signout-info {display:none!important;}
+.rwd .recode50 .results-overlay.results-recent.results.component {display:none;}*/
+
+.rwd.lt-ie9 .recode50 #alertSupport {margin-top:25px;}
+.rwd.lt-ie9 .recode50 #recode50header {height:120px;}
+.rwd.lt-ie9 .recode50 .header-simplify nav.global-menu-simplify .states-login .state-option.state-logged-in {display: none;}
+
+/* fix sign in icon position */
+span.icon-login.align-icons.fa- {vertical-align:initial!important;}
+
+/* counter sites specific bootstrap */
+..rwd .recode50 .modal-header {display: block!important;}
+
+.rwd .recode50 .header-simplify nav.global-menu-simplify .content .navbar-logo {float: initial!important;}
+
+.rwd .recode50 .modal {background-color:transparent; border:0; border-radius:0; -webkit-border-radius:0; -moz-border-radius:0; -webkit-box-shadow:none; -mox-box-shadow:none; }
+
+.rwd .recode50 .modal-footer {padding:0; margin-bottom:0; background-color:transparent; border-top-style:none; border-bottom-style:none; border-radius:0; box-shadow:none; -webkit-border-radius:none; -webkit-box-shadow:none; -moz-border-radius:none; -moz-box-shadow:none;}
+
+.rwd .recode50 #modal-intel-menu li {line-height:20px;}
+.rwd .recode50 li.lang-option {line-height:32px;}
+.rwd .recode50 #language-accordion li {line-height:32px;}
+.rwd .recode50 ul,ol {margin:0;}
+
+.rwd .recode50 textarea:focus, .rwd .recode50 input[type="text"]:focus, .rwd .recode50 input[type="password"]:focus, .rwd .recode50 input[type="datetime"]:focus, .rwd .recode50 input[type="datetime-local"]:focus, .rwd .recode50 input[type="date"]:focus, .rwd .recode50 input[type="month"]:focus, .rwd .recode50 input[type="time"]:focus, .rwd .recode50 input[type="week"]:focus, .rwd .recode50 input[type="number"]:focus, .rwd .recode50 input[type="email"]:focus, .rwd .recode50 input[type="url"]:focus, .rwd .recode50 input[type="search"]:focus, .rwd .recode50 input[type="tel"]:focus, .rwd .recode50 input[type="color"]:focus, .rwd .recode50 .uneditable-input:focus {box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; }
+
+.rwd .recode50 select, .rwd .recode50 textarea, .rwd .recode50 input[type="text"], .rwd .recode50 input[type="password"], .rwd .recode50 input[type="datetime"], .rwd .recode50 input[type="datetime-local"], .rwd .recode50 input[type="date"], .rwd .recode50 input[type="month"], .rwd .recode50 input[type="time"], .rwd .recode50 input[type="week"], .rwd .recode50 input[type="number"], .rwd .recode50 input[type="email"], .rwd .recode50 input[type="url"], .rwd .recode50 input[type="search"], .rwd .recode50 input[type="tel"], .rwd .recode50 input[type="color"], .rwd .recode50 .uneditable-input {height: auto;}
+
+@media (max-width: 767px) {.rwd .recode50 .navbar-fixed-top, .rwd .recode50 .navbar-fixed-bottom, .rwd .recode50 .navbar-static-top {margin-right:0; margin-left:0;}}
+
+.rwd .recode50 [class^="icon-"], .rwd .recode50 [class*=" icon-"] {width:auto; background-image:none;}
+
+
+/* ============ TEMP MYINTEL ======================*/
+.rwd .recode50 .header-simplify nav.global-menu-simplify.logged-in-slider .states-login .option-links {margin:auto}
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify.logged-in-slider .login-toggle {display:inline-block;}*/
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify.logged-in .nav-right button.login .login-label {display:inline-block;}*/
+span.desktop {display:none!important;}
+span.mobile {display:none!important;}
+@media (min-width:1024px){ 
+span.desktop {display:inline-block!important;}
+}
+@media (max-width:1025px){ 
+span.mobile {display:inline-block!important;}
+}
+.rwd .recode50 .header-simplify nav.global-menu-simplify.logged-in .nav-right .login .icon-login:before {content: '\e800'}
+/* ============ TEMP MYINTEL ======================*/
+.rwd .recode50 .wrapper-sticky-footer .slide-language-selector .modal-content .modal-body .flyout-control-panel .flyout-panel-inner {padding: 0px 30px 0px;}
+.rwd .recode50 .wrapper-sticky-footer .modal-header .modal-title {text-transform:capitalize;}
+
+/* fix myintel dialoge height when search is removed */
+/*.rwd .recode50 .header-simplify nav.global-menu-simplify .search-content .myintel-tools-content .my-intel-panel-body {max-height:100% !important;}*/
+
+/* Sign In/MyIntel for SSO based sites */
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf:before {content:""; display:table;}
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf {background-color: #333;position: fixed;width: 100%;top: 0px;height: 60px;padding-top: inherit;padding-right: 20px; overflow:auto; right:-100%; -webkit-transform: translate3d(100%,0,0); transform: translate3d(100%,0,0);	transition: transform .3s ease-out;	right:0; }
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf.active {overflow: hidden; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);}
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf .login-label {display:inline!important;}
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf .close {float:left!important; padding:0; color:#fff!important; width:60px; height:60px; text-align:center;}
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .ighf .close span {display:inline-block;}
+.rwd .recode50 .header-simplify nav.global-menu-simplify .nav-right .login .icon-login:hover {color: #9addf7;}
+.rwd .recode50 .header-simplify nav.global-menu-simplify.logged-in .icon-login {background-images:none;}
+
+
+/* Sign In/MyIntel for NON SSO based sites 
+.recode50 .header-simplify nav.global-menu-simplify .search-content.active.ighf-nosso .wrapper-sticky-footer.extra-margin {height:100%!important;}
+.recode50 .header-simplify nav.global-menu-simplify .search-content.active.ighf-nosso .wrapper-sticky-footer.extra-margin .slide-myintel.component {height:100%!important;}
+.recode50 .header-simplify nav.global-menu-simplify .search-content.active.ighf-nosso .wrapper-sticky-footer.extra-margin section.myintel-tools-content {height:100%!important;}
+.recode50 .header-simplify nav.global-menu-simplify .search-content.active.ighf-nosso .wrapper-sticky-footer.extra-margin .my-intel-panel-body.tab-content {height:100%!important; max-height: none!important;}*/
+
+
+/* fix [data-igm-site-mask] positioning on Salesforce */
+.rwd .recode50 .header-simplify [data-igm-site-mask].active {z-index: 1031!important;left: 0;top: 60px;}
+
+
+/* ============ SITE LOADED BOOT STRAP OVERRIDES ======================*/
+.rwd .recode50 .row {display:-webkit-box!important;}
+.rwd .recode50 .modal-header {display:block!important;}
+
+
+
+
+
+/* =========================================================*/
+/* ============ CUSTOM IGHF OVERRIDES ======================*/
+.rwd body.hamburger .recode50 .header-simplify nav.global-menu-simplify .icon.hamburger,
+.rwd body.hamburger .recode50 .nav-left ul{display: inline!important;}
+.rwd body.no-header #recode50header{display:none!important; padding:0;}
+.rwd body.no-menu #recode50header .nav-left .content { display: none!important;}
+.rwd body.no-languageselector #recode50header .nav-right .content .language-selector-toggle { display: none!important;}
+.rwd body.no-search #recode50header .nav-right .content .search-button { display: none!important;}
+.rwd body.no-myintel #recode50header .nav-right .content .myintel-toggle,
+.rwd body.no-myintel .recode50 .header-simplify nav.global-menu-simplify .states-login,
+.rwd body.no-myintel .recode50 .header-simplify nav.global-menu-simplify .login-toggle,
+.rwd body.no-myintel .recode50 .header-simplify nav.global-menu-simplify .login-toggle1 { display: none!important;}
+.rwd body.no-signin .recode50 .header-simplify nav.global-menu-simplify .search-info { display: none!important;}
+
+
+.rwd body.unav .recode50 .header-simplify nav.global-menu-simplify .icon.hamburger {display: none!important;} 
+.rwd.headerfooter-menu3 body.drc #recode50footer.recode50 footer.global .footer-logo{margin-top:2.35em;}
+.rwd.headerfooter-menu3 body.swachhmap #recode50footer.recode50 footer.global .footer-logo{margin-top:2.35em;} 
+.rwd.headerfooter-menu3 body.swachhmap .recode50 footer.global .footer-links:nth-child(1),
+.rwd.headerfooter-menu3 body.swachhmap .recode50 footer.global .footer-links.social{display:none!important;} 
+.rwd.headerfooter-menu3 body.swachhmap .recode50 footer.global .content{height:110px;}
+
+﻿
+/* SITE HARDENING for IE9 non-responsive */
+.rwd .recode50 footer {min-width: 992px;}

@@ -1,0 +1,6 @@
+﻿/* ZH_TW override 
+FILE_CHANGED_ON = '2017-03-21 11:36:51'
+*/
+#recode50header .uheader .newmenu-container .newmenu-contents div.level.menu-content div.main-content p.link-item {
+	line-height: 14px !important;
+}

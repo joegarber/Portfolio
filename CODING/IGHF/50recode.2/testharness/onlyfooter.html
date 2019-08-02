@@ -1,0 +1,31 @@
+<!--#include virtual="/ighf/50recode.2/testharness/top.inc"-->
+
+<!-- script type="text/javascript">
+	INTELNAV = window.INTELNAV || {};
+	INTELNAV.hidden = "header";
+</script -->
+
+<script type="text/javascript" src="http://www.intel.com/sites/js/INTEL.js"> </script> 
+<script type="text/javascript">
+/*<![CDATA[*/  
+
+var GAAT40 = GAAT40 || {};
+ GAAT40.HeaderLut={RSSLink:'http://feeds.feedburner.com/IntelNewsroom',RSSLinkHttps:'http://feeds.feedburner.com/IntelNewsroom'};
+// this needs to be moved into the footer file gf_ instead of the header gh_
+
+//document.write('<style type="text/css">#recode50header {height:91px;visibility:hidden;}#smallfootprint-header,#smallfootprint-footer {display:none !important}</style>');
+INTELNAV = window.INTELNAV || {};
+INTELNAV.renderSettings={pageWidth:"w1024",renderMode:"standards",textDirection:"ltr",protocol:"http",culture:"en_US",assetPathRoot:"http://www.intel.com",buildType:"html",OutputId:"gh_home"};
+INTELNAV.isVisible="footeronly";
+/*]]>*/</script>
+<script type="text/javascript" src="http://www.intel.com/sites/sitewide/HAT/50recode.2/js/headerChooser.js"> </script>
+
+<!--#jinclude virtual="/ighf/50recode.2/en_US/gh_default.inc"-->
+
+<!-- HEADER INCLUDE NOT BEING LOADED BY THIS PAGE -->
+
+<!--#include virtual="/ighf/50recode.2/testharness/main.inc"-->
+
+<!--#include virtual="/ighf/50recode.2/en_US/gf_default.inc"-->
+
+<!--#include virtual="/ighf/50recode.2/testharness/bottom.inc"-->

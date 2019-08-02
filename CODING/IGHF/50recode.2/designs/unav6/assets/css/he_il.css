@@ -1,0 +1,15 @@
+﻿/* MS_MY override
+FILE_CHANGED_ON = '2018-08-01 09:20:36'
+*/ 
+@import url("/ighf/50recode.2/designs/unav6/assets/css/ar_xr.css");
+
+.rwd .recode50 * {
+	font-family: "intel-clear-hebrew","intel-clear",Arial,Sans-Serif !important;
+}
+
+.rwd .recode50 .header-simplify .language-selector-toggle span {vertical-align: super !important;}
+@media screen and (min-width: 767px) {
+	.rwd .recode50 .header-simplify button.language-selector-toggle {vertical-align: middle!important;}
+}
+
+.rwd .recode50 .mega-menu-content ul.nav-tabs li { height: auto!important;}

@@ -1,0 +1,86 @@
+#MAIN, #SUB {display:none; clear:both;}
+#MAIN tr a {display:block;}
+#MAIN tr.HV {background-color:#FFD900;}
+#MAIN thead tr {background-color:#000000; color:#ffffff;}
+#MAIN #modes tbody tr:hover {background-color:#FFEF81;}
+#MAIN {height:1024px; border:1px dashed red;font-size:.75em;}
+#MAIN ul li {margin-left:0px;padding-left:0px;list-style:none;}
+
+#MAIN .asia {background-color:#EDC2CD;cursor:pointer;}
+#MAIN .europe {background-color:#C7EDC2;cursor:pointer;}
+#MAIN .latin {background-color:#C2DBED;cursor:pointer;}
+#MAIN .middleeast {background-color:#EAEDC2;cursor:pointer;}
+#MAIN .northamerica {background-color:#DDC2ED;cursor:pointer;}
+
+#MAIN #GEOS DIV {width:60px;float:left;text-align:center;}
+#MAIN #GEOS h3 {height:30px; font-size:14px;margin: 5px 0 5px 0;}
+#MAIN #GEOS a {color:#aaa;cursor:pointer;display:block;margin:1px;border:1px dashed #aaa; }
+#MAIN #GEOS table td {border:1px solid #ccc; background-color:#f8f8ff;}
+#MAIN .current {background-color:#FFDC73}
+#MAIN .activated {background-color:#C2DBED;cursor:pointer;}
+#MAIN .swapped {background-color:#EDC2CD;cursor:pointer;}
+#MAIN .hasrecode {color:#000!important; border:1px solid #000!important;}
+#MAIN .norecode {border:1px dashed #aaa!important; }
+
+#MAIN .notactive {cursor:pointer;}
+
+#MAIN #KEY {float:left;}
+#MAIN #KEY UL LI {margin:1px; list-style:none;padding:2px;list-style-position:inside;}
+#MAIN #KEY UL {margin:1px; padding:0px; list-style:none; list-style-type: none;}
+#MAIN #KEY LI {margin:1px; padding:0px; list-style:none;}
+
+#MAIN #forcetest {width:80px;}
+
+#MAIN #xmlresults .results {padding:15px;}
+#MAIN #xmlresults span {padding:5px;}
+#MAIN #xmlresults .failure {background-color:#fcf8e3;}
+#MAIN #xmlresults .error {background-color:#fcf8e3;}
+#MAIN #xmlresults .error.failure {background-color:#f2dede;}
+#MAIN #xmlresults .success {background-color:#dff0d8;}
+
+.speedtest {display:none;}
+
+.hidden {display:none;}
+
+ul.design {border:1px solid #ccc; padding:5px; margin-top:0; background-color:#f5f5dc; float:left; margin:5px;}
+ul.design.ighfuat4 {clear:both;}
+
+.status {font-weight:bold; color:#ed143d;}
+
+.rwd .recode50 {padding-top:0px;}
+
+.rwd .recode50 .progress {width:115px; margin-bottom:0; height:20px;}
+
+.rwd .recode50 .progress-bar {font-size:10px;}
+
+.progress-bar.active, .progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar-striped, .progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,rgba(0, 0, 0, 0) 25%,rgba(0, 0, 0, 0) 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,rgba(0, 0, 0, 0) 75%,rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,rgba(0, 0, 0, 0) 25%,rgba(0, 0, 0, 0) 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,rgba(0, 0, 0, 0) 75%,rgba(0, 0, 0, 0));
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+[class^="ighfuat"], [class*=" ighfuat"] {
+    background-color: #F5F5BA!important
+}
